@@ -6,24 +6,33 @@
 
 @flag offset_shift 0x100
 
-// Invisible [OctoSquiddy]
-@disabled
-023E1074 6666F63A
-
-// Small Inkling/Squid [OctoSquiddy]
-@disabled
-023E1074 6666063F
-
 // Fly [kgg]
 @enabled
 00F7778C C0035FD6
+
+// Swim in Ink anywhere [SplatNut]
+@enabled
+00F9302C 1F090071
+00F93008 07000014
+00F92FCC 48008052
+01090C80 1F2003D5
+010908A0 540080D2
+01090C30 13000014
 
 // No death zones [kgg]
 @enabled
 0109E984 C0035FD6
 
-// Inf Ink [OctoSquiddy]
+// Infinity Ink
 @enabled
 02340ADE 75622C20635370656369616C00537562
 02340AE0 496E6B5F53617665202C4D61696E496E
 023406F8 6B5F53617665202C496E6B5265636F76
+
+// Invisible
+@disabled
+023E1074 6666F63A
+
+// Small Inkling/Squid
+@disabled
+023E1074 6666063F
