@@ -6,10 +6,6 @@
 
 @flag offset_shift 0x100
 
-// Fly [kgg]
-@enabled
-00F7778C C0035FD6
-
 // Swim in Ink anywhere [SplatNut]
 @enabled
 00F9302C 1F090071
@@ -22,10 +18,6 @@
 // Godmode [SplatNut]
 @enabled
 00FD15EC 160080D2
-
-// No death zones [kgg]
-@enabled
-0109E984 C0035FD6
 
 // Infinite Ink [OctoSquiddy]
 @enabled
