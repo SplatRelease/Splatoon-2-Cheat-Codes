@@ -19,6 +19,10 @@
 010908A0 540080D2
 01090C30 13000014
 
+// Godmode [SplatNut]
+@enabled
+00FD15EC 160080D2
+
 // No death zones [kgg]
 @enabled
 0109E984 C0035FD6
